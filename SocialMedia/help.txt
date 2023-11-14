@@ -1,0 +1,23 @@
+                                                                                          -----day1----
+cd /d E:\GitHub\project\SocialMedia\SocialMedia
+code .
+
+
+
+
+
+--------------------------
+python -m venv SocialMedia
+SocialMedia\Scripts\activate
+pip install django
+cd SocialMedia
+django-admin startproject  SocialMedia
+code .
+-------------------------------
+django-admin
+tree
+
+python manage.py runserver
+python manage.py migrate  
+
+python manage.py startapp blog   # for add app  name is pages
