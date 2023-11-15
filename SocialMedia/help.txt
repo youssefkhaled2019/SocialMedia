@@ -21,3 +21,27 @@ python manage.py runserver
 python manage.py migrate  
 
 python manage.py startapp blog   # for add app  name is pages
+
+
+
+--------------bootstrap-------------------
+https://getbootstrap.com/docs/4.6/getting-started/introduction/
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------
+{% load static %}
+{% static 'blog/main.css' %}
+
+{% block content %}{% endblock %}
+
+{% extends 'blog/layout.html' %}
