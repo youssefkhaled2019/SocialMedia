@@ -10,7 +10,15 @@
                        -content-section (post)
              add folder static content  file : main.css           
              -create damy data for show in home pages   
------------------------------------------------                    
+-----------------------------------------------
+ day_3       create superuser 
+             create  post model
+             connect user model with post model as ForeignKey
+             add data in   post model
+             connect view with model and show data in home pages
+-----------------------------------------------     
+               
+          
                       
                       
                        
