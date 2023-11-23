@@ -24,7 +24,13 @@ day_5        create login and logout system
              create   login ,logout ,profile  templates
              -use Authentication system  protection home and profile pages  by login_required
               and must user is Authentication by user.is_authenticated
------------------------------------------------    
+-----------------------------------------------
+day_6        create profile model
+             change in profile template
+             -create signals.py for create new row for user register for add profile image 
+-----------------------------------------------
+
+
 
                
           

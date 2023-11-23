@@ -1,4 +1,4 @@
-                                                                                          -----day5----
+                                                                                          -----day6----
 cd /d E:\GitHub\project\SocialMedia\SocialMedia
 code .
 
@@ -93,3 +93,12 @@ post_3.author.email
 user.post_set.all()
 user.post_set.all().count()
 -----------------------------
+
+from django.contrib.auth.models import User
+user=User.objects.filter(username='youssef').first()
+user.profile
+user.profile.image
+user.profile.image.width
+user.profile.image.url 
+-------------------------------
+pip install Pillow
