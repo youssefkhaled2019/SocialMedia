@@ -1,4 +1,4 @@
-                                                                                          -----day6----
+                                                                                          -----day7----
 cd /d E:\GitHub\project\SocialMedia\SocialMedia
 code .
 
